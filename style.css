@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.theme-text{
+    color: #f0b30f;
+}
+
+.container-fluid{
+    color: #f0b30f !important;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-fluid .navbar-brand{
+    color: #f0b30f;
+    transition:0.5s;
+    position: fixed;
+}
+
+.container-fluid .navbar-brand:hover{
+    color: #f0b30f;
+    font-size: 25px;
+}
+
+.act {
+    color: #f0b30f;
+    border-bottom: 2px solid #f0b30f;
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(img/1700222.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.middle h1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 300px;
+    margin-left: 50px;
+}
+
+.navbar ul li a:hover{
+    color: #f0b30f;
+    border-bottom: 2px solid #f0b30f;
+}
+
+.btn input{
+    background-color: initial;
+    color: #f0b30f;
+    font-size: 30px;
+    border: solid #f0b30f;
+    width: 8em;
+    position: relative;
+    border-radius: 20px;
+    top: 14em;
+    right: 19em;
+    transition: 0.5s;
+} 
+
+.btn input:hover{
+    background-color: #f0b30f;
+    color: white;
+}
+
